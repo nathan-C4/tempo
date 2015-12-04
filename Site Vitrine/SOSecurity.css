@@ -1,0 +1,202 @@
+/*
+	fichier: SOSecurity.css
+*/
+
+/* General ================================================================== */
+#bloc_page{
+	min-width: 400px;
+	width: 1000px;
+	margin: auto;
+}
+
+/* Body ===================================================================== */
+
+body{
+	margin: 15px 0px 0px 0px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0+100;Neutral+Density */
+	/*background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(135deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	background-image: url("Images/fond_jaune.png");
+	background-attachment: fixed;
+}
+
+/* Header =================================================================== */
+
+header
+{
+	margin: auto;
+	padding: 5px;
+	width: 40%;
+	height: 45px;
+	border: 2px ridge;
+	border-radius: 50px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,4c6170+100 */
+	background: rgb(181,189,200); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(76,97,112,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(76,97,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(76,97,112,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#4c6170',GradientType=0 ); /* IE6-9 */
+
+	text-align: center;
+	box-shadow: 0px 0px 15px white;
+	min-width: 325px;
+}
+
+header h1{
+	margin: 0px;
+	font-size: 35px;
+	
+	text-shadow: 0px 0px 15px white;
+}
+
+
+
+/* Bienvenue =================================================================== */
+.bienvenue{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+/* Corps principale ============================================================ */
+
+#sous_bloc_page{
+	position: relative;
+	top: 30px;
+}
+
+/* Corps principale(1) ========================================================= */
+
+.main_dish, .bloc_description{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main_dish{
+	text-align: center;
+	width: 40%;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	/*border: black 1px solid;*/
+	position: relative;
+	left: 10px;
+}
+
+.main_dish p{
+	margin: 15px;
+	margin-bottom: 30px;
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	text-shadow: 0px 0px 5px rgb(255, 255, 255)
+}
+
+.btn_dlAppli{
+	border: grey 1px solid;
+	border-radius: 10px;
+	padding: 10px 20px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea2803+0,ed5a47+23,e86c57+47,ff6600+73,c72200+100 */
+	background: #ea2803; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ea2803 0%, #ed5a47 23%, #e86c57 47%, #ff6600 73%, #c72200 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ea2803 0%,#ed5a47 23%,#e86c57 47%,#ff6600 73%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ea2803 0%,#ed5a47 23%,#e86c57 47%,#ff6600 73%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2803', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+	
+	transition-property: box-shadow;
+	transition-duration: 0.25s;
+	box-shadow: 0px 0px 0px rgb(255,255,255);
+}
+
+.btn_dlAppli:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb955e+0,fcb994+68,ea5507+100 */
+	background: #fb955e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fb955e 0%, #fcb994 68%, #ea5507 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fb955e 0%,#fcb994 68%,#ea5507 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fb955e 0%,#fcb994 68%,#ea5507 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb955e', endColorstr='#ea5507',GradientType=0 ); /* IE6-9 */
+	
+	transition-property: box-shadow;
+	transition-duration: 0.25s;
+	box-shadow: 0px 0px 3px rgb(200,200,200);
+}
+
+.PP{
+	text-align: center;
+	/*border: black 1px solid;*/
+	text-decoration: none;
+	color: black;
+}
+.PP:hover{
+	color: blue;
+}
+
+/* Corps principale(2) ========================================================= */
+
+.bloc_description{
+	margin: 0px 0px 0px 50px;
+	width: 40%;
+	position: relative;
+	left: 10px;
+}
+
+nav ul
+{
+	background-color: rgba(100,100,100,0.3);
+	height: 35px;
+	border-radius: 20px;
+	margin-top: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	
+}
+
+nav li
+{
+	display: inline-block;
+	margin: 0px 0px;
+	padding: 0px 15px;
+}
+
+nav li a
+{
+	font-family: helvetica;
+	font-size: 33px;
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+}
+nav li a:hover
+{
+	color: white;
+}
+/* Targeting bloc Waaaaaa !=== */
+
+#description,#aPropos
+{
+	display: none;
+	background-color: rgba(100,100,100,0.3);
+	padding: 10px;
+	border-radius: 10px;
+	color: rgb(50,50,50);
+}
+
+#description:target{
+	display: block;
+}
+
+#aPropos:target{
+	display: block;
+}
+
+/* Gestion de la video ===================================== */
+video{
+	width: 380px;
+}
